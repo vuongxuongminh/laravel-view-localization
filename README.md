@@ -8,7 +8,7 @@
     <a href="https://packagist.org/packages/vxm/laravel-view-localization"><img src="https://img.shields.io/packagist/v/vxm/laravel-view-localization.svg?style=flat-square" alt="Latest version"></a>
     <a href="https://travis-ci.org/vuongxuongminh/laravel-view-localization"><img src="https://img.shields.io/travis/vuongxuongminh/laravel-view-localization/master.svg?style=flat-square" alt="Build status"></a>
     <a href="https://scrutinizer-ci.com/g/vuongxuongminh/laravel-view-localization"><img src="https://img.shields.io/scrutinizer/g/vuongxuongminh/laravel-view-localization.svg?style=flat-square" alt="Quantity score"></a>
-    <a href="https://styleci.io/repos/191031210"><img src="https://styleci.io/repos/191031210/shield?branch=master" alt="StyleCI"></a>
+    <a href="https://styleci.io/repos/193444361"><img src="https://styleci.io/repos/193444361/shield?branch=master" alt="StyleCI"></a>
     <a href="https://packagist.org/packages/vxm/laravel-view-localization"><img src="https://img.shields.io/packagist/dt/vxm/laravel-view-localization.svg?style=flat-square" alt="Total download"></a>
     <a href="https://packagist.org/packages/vxm/laravel-view-localization"><img src="https://img.shields.io/packagist/l/vxm/laravel-view-localization.svg?style=flat-square" alt="License"></a>
     </p>
@@ -50,3 +50,5 @@ You can use it to systematically change the look and feel of an application depe
 For example, when call `view('about')`, you will be rendering the view file `resources/views/about.blade.php`, if user locale is `vi`, the view file `resources/views/vi/about.blade.php` will be rendered, instead.
 
 >Note: If the application locale is the same as source locale original view will be rendered regardless of presence of translated view.
+
+The package will automatically register itself. Now your application can dynamic render view by user locale.
