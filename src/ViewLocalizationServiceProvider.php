@@ -66,7 +66,11 @@ class ViewLocalizationServiceProvider extends ServiceProvider
     protected function registerServices(): void
     {
         $this->app->singleton(ViewComposer::class, function ($app) {
-            return new ViewComposer($app, $app['config']->get['viewlocalization.sourceLocale'], $app['files']);
+            return new ViewComposer(
+                $app,
+                $app['config']->get('viewlocalization.sourceLocale'),
+                $app['files']
+            );
         });
     }
 }
