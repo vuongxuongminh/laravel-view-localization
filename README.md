@@ -5,12 +5,12 @@
     <h1 align="center">Laravel View Localization</h1>
     <br>
     <p align="center">
-    <a href="https://packagist.org/packages/vxm/laravel-async"><img src="https://img.shields.io/packagist/v/vxm/laravel-async.svg?style=flat-square" alt="Latest version"></a>
-    <a href="https://travis-ci.org/vuongxuongminh/laravel-async"><img src="https://img.shields.io/travis/vuongxuongminh/laravel-async/master.svg?style=flat-square" alt="Build status"></a>
-    <a href="https://scrutinizer-ci.com/g/vuongxuongminh/laravel-async"><img src="https://img.shields.io/scrutinizer/g/vuongxuongminh/laravel-async.svg?style=flat-square" alt="Quantity score"></a>
+    <a href="https://packagist.org/packages/vxm/laravel-view-localization"><img src="https://img.shields.io/packagist/v/vxm/laravel-view-localization.svg?style=flat-square" alt="Latest version"></a>
+    <a href="https://travis-ci.org/vuongxuongminh/laravel-view-localization"><img src="https://img.shields.io/travis/vuongxuongminh/laravel-view-localization/master.svg?style=flat-square" alt="Build status"></a>
+    <a href="https://scrutinizer-ci.com/g/vuongxuongminh/laravel-view-localization"><img src="https://img.shields.io/scrutinizer/g/vuongxuongminh/laravel-view-localization.svg?style=flat-square" alt="Quantity score"></a>
     <a href="https://styleci.io/repos/191031210"><img src="https://styleci.io/repos/191031210/shield?branch=master" alt="StyleCI"></a>
-    <a href="https://packagist.org/packages/vxm/laravel-async"><img src="https://img.shields.io/packagist/dt/vxm/laravel-async.svg?style=flat-square" alt="Total download"></a>
-    <a href="https://packagist.org/packages/vxm/laravel-async"><img src="https://img.shields.io/packagist/l/vxm/laravel-async.svg?style=flat-square" alt="License"></a>
+    <a href="https://packagist.org/packages/vxm/laravel-view-localization"><img src="https://img.shields.io/packagist/dt/vxm/laravel-view-localization.svg?style=flat-square" alt="Total download"></a>
+    <a href="https://packagist.org/packages/vxm/laravel-view-localization"><img src="https://img.shields.io/packagist/l/vxm/laravel-view-localization.svg?style=flat-square" alt="License"></a>
     </p>
 </p>
 
