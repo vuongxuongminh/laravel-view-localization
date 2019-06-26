@@ -36,7 +36,7 @@ class ViewLocalizationServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register view compose event listener
+     * Register view compose event listener.
      */
     protected function registerViewComposeListener(): void
     {
