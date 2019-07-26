@@ -70,12 +70,7 @@ class ViewComposer
     {
         $path = $view->getPath();
         $appLocale = $this->app->getLocale();
-
-        if (isset($this->resolvedPaths[$appLocale][$path])) {
-            $resolvedPath = $this->resolvedPaths[$appLocale][$path];
-        } else {
-            $resolvedPath = $this->resolvePath($view);
-        }
+        $resolvedPath = $this->resolvedPaths[$appLocale][$path] ?? $this->resolvePath($view);
 
         if ($resolvedPath) {
             $view->setPath(
